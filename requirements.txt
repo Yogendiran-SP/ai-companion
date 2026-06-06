@@ -1,0 +1,8 @@
+pywinctl
+pygetwindow
+python-dotenv
+google-genai
+
+fastapi
+uvicorn
+requests
