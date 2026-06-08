@@ -6,3 +6,8 @@ google-genai
 fastapi
 uvicorn
 requests
+
+datetime
+pywinauto
+json
+win32gui
