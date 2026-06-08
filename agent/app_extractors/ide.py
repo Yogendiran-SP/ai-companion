@@ -16,9 +16,9 @@ def ide_extractor(context, parts):
     
     record = {
         "timestamp": datetime.now().isoformat(),
-        "category": context["title_category"],
+        "context_type": context["context_category"],
         "app": context["current_app"],
-        "context_type": context["app_category"],
+        "category": context["app_category"],
         "context": {
             "file": context["current_file"],
             "project": context["current_project"]

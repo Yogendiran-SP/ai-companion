@@ -76,135 +76,135 @@
     },
     {
         "timestamp": "2026-06-04T21:30:54.458245",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
         "file": "llm_client.py"
     },
     {
         "timestamp": "2026-06-04T21:31:01.345933",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Brave",
         "file": ""
     },
     {
         "timestamp": "2026-06-04T21:31:05.772367",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
         "file": "llm_client.py"
     },
     {
         "timestamp": "2026-06-04T21:31:09.518372",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
         "file": "activity_save.py"
     },
     {
         "timestamp": "2026-06-04T21:31:13.204090",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
         "file": "backend.py"
     },
     {
         "timestamp": "2026-06-04T21:31:48.997329",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
         "file": "history.json"
     },
     {
         "timestamp": "2026-06-04T21:31:52.936430",
-        "category": "SYSTEM_CONTEXT",
+        "context_type": "SYSTEM_CONTEXT",
         "app": "Search",
         "file": ""
     },
     {
         "timestamp": "2026-06-04T21:31:59.034021",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Unknown Application",
         "file": ""
     },
     {
         "timestamp": "2026-06-04T21:32:03.216831",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
         "file": "history.json"
     },
     {
         "timestamp": "2026-06-04T21:33:10.181673",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
         "file": "activity_save.py"
     },
     {
         "timestamp": "2026-06-04T21:33:15.346170",
-        "category": "SYSTEM_NOISE",
+        "context_type": "SYSTEM_NOISE",
         "app": "Task Switching",
         "file": ""
     },
     {
         "timestamp": "2026-06-04T21:33:19.961908",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
         "file": "activity_save.py"
     },
     {
         "timestamp": "2026-06-04T21:36:09.270319",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
         "file": "history.json"
     },
     {
         "timestamp": "2026-06-04T21:38:27.916175",
-        "category": "SYSTEM_NOISE",
+        "context_type": "SYSTEM_NOISE",
         "app": "Task Switching",
         "file": ""
     },
     {
         "timestamp": "2026-06-04T21:38:40.100346",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
         "file": "history.json"
     },
     {
         "timestamp": "2026-06-04T21:39:54.155389",
-        "category": "SYSTEM_CONTEXT",
+        "context_type": "SYSTEM_CONTEXT",
         "app": "Search",
         "file": ""
     },
     {
         "timestamp": "2026-06-04T21:39:58.213936",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
         "file": "history.json"
     },
     {
         "timestamp": "2026-06-04T21:41:38.952425",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Brave",
         "file": ""
     },
     {
         "timestamp": "2026-06-04T21:41:42.283690",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
         "file": "history.json"
     },
     {
         "timestamp": "2026-06-04T21:42:41.088815",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Brave",
         "file": ""
     },
     {
         "timestamp": "2026-06-04T21:42:45.737202",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
         "file": "history.json"
     },
     {
         "timestamp": "2026-06-06T15:43:30.111040",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
-        "context_type": "IDE",
+        "category": "IDE",
         "context": {
             "file": "ui_automation.py",
             "project": "ai-companion"
@@ -212,9 +212,9 @@
     },
     {
         "timestamp": "2026-06-06T15:43:44.597646",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
-        "context_type": "IDE",
+        "category": "IDE",
         "context": {
             "file": "llm_client.py",
             "project": "ai-companion"
@@ -222,9 +222,9 @@
     },
     {
         "timestamp": "2026-06-06T15:51:42.125070",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
-        "context_type": "IDE",
+        "category": "IDE",
         "context": {
             "file": "app_detector.py",
             "project": "ai-companion"
@@ -232,9 +232,9 @@
     },
     {
         "timestamp": "2026-06-06T15:53:08.457110",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
-        "context_type": "IDE",
+        "category": "IDE",
         "context": {
             "file": "llm_client.py",
             "project": "ai-companion"
@@ -242,9 +242,9 @@
     },
     {
         "timestamp": "2026-06-06T16:32:45.798709",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
-        "context_type": "IDE",
+        "category": "IDE",
         "context": {
             "file": "app_detector.py",
             "project": "ai-companion"
@@ -252,9 +252,9 @@
     },
     {
         "timestamp": "2026-06-06T16:33:16.315536",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
-        "context_type": "IDE",
+        "category": "IDE",
         "context": {
             "file": "main.py",
             "project": "ai-companion"
@@ -262,9 +262,9 @@
     },
     {
         "timestamp": "2026-06-06T16:33:51.754713",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
-        "context_type": "IDE",
+        "category": "IDE",
         "context": {
             "file": "llm_client.py",
             "project": "ai-companion"
@@ -272,9 +272,9 @@
     },
     {
         "timestamp": "2026-06-06T16:33:58.407939",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
-        "context_type": "IDE",
+        "category": "IDE",
         "context": {
             "file": "activity_save.py",
             "project": "ai-companion"
@@ -282,7 +282,7 @@
     },
     {
         "timestamp": "2026-06-06T16:34:06.480020",
-        "category": "SYSTEM_NOISE",
+        "context_type": "SYSTEM_NOISE",
         "app": "Task Switching",
         "context": {
             "tab": ""
@@ -290,9 +290,9 @@
     },
     {
         "timestamp": "2026-06-06T16:34:36.054927",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
-        "context_type": "IDE",
+        "category": "IDE",
         "context": {
             "file": "activity_save.py",
             "project": "ai-companion"
@@ -300,9 +300,9 @@
     },
     {
         "timestamp": "2026-06-06T16:42:59.758519",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Brave",
-        "context_type": "BROWSER",
+        "category": "BROWSER",
         "context": {
             "Web App": "YouTube",
             "Tab Title": "(404) WORSHIP WITH SAM | 14/11/2025 | WHAT A GOD!"
@@ -310,9 +310,9 @@
     },
     {
         "timestamp": "2026-06-06T16:43:04.619697",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
-        "context_type": "IDE",
+        "category": "IDE",
         "context": {
             "file": "app_detector.py",
             "project": "ai-companion"
@@ -320,9 +320,9 @@
     },
     {
         "timestamp": "2026-06-06T16:47:05.164036",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Brave",
-        "context_type": "BROWSER",
+        "category": "BROWSER",
         "context": {
             "Web App": "",
             "Tab Title": "LeetCode"
@@ -330,11 +330,438 @@
     },
     {
         "timestamp": "2026-06-06T16:47:09.852059",
-        "category": "USER_CONTEXT",
+        "context_type": "USER_CONTEXT",
         "app": "Visual Studio Code",
-        "context_type": "IDE",
+        "category": "IDE",
         "context": {
             "file": "history.json",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T12:42:35.266158",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "settings.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T12:42:43.741457",
+        "context_type": "SYSTEM_NOISE",
+        "app": "Task Switching",
+        "context": {
+            "tab": ""
+        }
+    },
+    {
+        "timestamp": "2026-06-08T12:42:49.872351",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "settings.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T12:46:35.071343",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "app_detector.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T12:46:40.046298",
+        "context_type": "SYSTEM_NOISE",
+        "app": "Task Switching",
+        "context": {
+            "tab": ""
+        }
+    },
+    {
+        "timestamp": "2026-06-08T12:47:24.740159",
+        "context_type": "SYSTEM_CONTEXT",
+        "app": "Settings",
+        "context": {
+            "tab": ""
+        }
+    },
+    {
+        "timestamp": "2026-06-08T12:47:34.932255",
+        "context_type": "SYSTEM_NOISE",
+        "app": "Task Switching",
+        "context": {
+            "tab": ""
+        }
+    },
+    {
+        "timestamp": "2026-06-08T14:33:39.150573",
+        "context_type": "SYSTEM_CONTEXT",
+        "app": "Settings",
+        "context": {
+            "tab": ""
+        }
+    },
+    {
+        "timestamp": "2026-06-08T14:33:42.990120",
+        "context_type": "SYSTEM_NOISE",
+        "app": "Task Switching",
+        "context": {
+            "tab": ""
+        }
+    },
+    {
+        "timestamp": "2026-06-08T14:33:46.158478",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "app_detector.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T14:42:12.109453",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "history.json",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T15:06:12.276814",
+        "context_type": "SETTINGS",
+        "app": "Settings",
+        "category": "SYSTEM_SETTINGS",
+        "context": {
+            "section_path": [
+                "Network & internet",
+                "Wi-Fi",
+                "Manage known networks",
+                "Redmi Note 12 5G"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-06-08T15:06:18.161670",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "settings.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T15:12:04.401943",
+        "context_type": "SYSTEM_CONTEXT",
+        "app": "File Explorer",
+        "category": "UNKNOWN",
+        "context": {
+            "title": "Downloads - File Explorer"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T15:12:10.320918",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "app_detector.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T15:38:24.517988",
+        "context_type": "SYSTEM_CONTEXT",
+        "app": "File Explorer",
+        "category": "UNKNOWN",
+        "context": {
+            "title": "ai-companion - File Explorer"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T15:45:46.565777",
+        "context_type": "SYSTEM_CONTEXT",
+        "app": "File Explorer",
+        "category": "UNKNOWN",
+        "context": {
+            "title": "ai-companion - File Explorer"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T15:45:52.070473",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "app_detector.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T15:47:03.296962",
+        "context_type": "SYSTEM_CONTEXT",
+        "app": "File Explorer",
+        "category": "UNKNOWN",
+        "context": {
+            "title": "CarX Street - File Explorer"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T15:47:08.920698",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "app_detector.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T15:48:19.475966",
+        "context_type": "SYSTEM_CONTEXT",
+        "app": "File Explorer",
+        "category": "UNKNOWN",
+        "context": {
+            "title": "CarX Street - File Explorer"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T15:48:23.448505",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "file_explorer.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T15:56:15.449392",
+        "context_type": "SYSTEM_CONTEXT",
+        "app": "Settings",
+        "category": "SYSTEM_CONTEXT",
+        "context": {
+            "tab_title": "",
+            "directory": "Unknown"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T15:56:19.130731",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "app_detector.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T15:57:27.951673",
+        "context_type": "SYSTEM_CONTEXT",
+        "app": "File Explorer",
+        "category": "SYSTEM_CONTEXT",
+        "context": {
+            "tab_title": "",
+            "directory": "Unknown"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T15:57:30.775677",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "file_explorer.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T16:04:18.704070",
+        "context_type": "SYSTEM_CONTEXT",
+        "app": "File Explorer",
+        "category": "SYSTEM_CONTEXT",
+        "context": {
+            "tab_title": "The Last of Us Part II Remastered",
+            "directory": [
+                "This PC",
+                "Windows-SSD (C:)",
+                "Program Files (x86)",
+                "DODI-Repacks",
+                "The Last of Us Part II Remastered"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-06-08T16:04:22.849082",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "file_explorer.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T16:07:23.324620",
+        "context_type": "SYSTEM_CONTEXT",
+        "app": "File Explorer",
+        "category": "SYSTEM_CONTEXT",
+        "context": {
+            "tab_title": "CarX Street",
+            "directory": "This PC\\Windows-SSD (C:)\\Program Files (x86)\\DODI-Repacks\\CarX Street\\"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T16:07:26.483219",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "file_explorer.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T16:13:28.752434",
+        "context_type": "SYSTEM_CONTEXT",
+        "app": "File Explorer",
+        "category": "SYSTEM_CONTEXT",
+        "context": {
+            "tab_title": "Adobe Sync",
+            "directory": "This PC\\Windows-SSD (C:)\\Program Files (x86)\\Adobe\\Adobe Sync"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T16:13:31.261160",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "file_explorer.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T17:37:54.482007",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "history.json",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T17:38:16.633406",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "history.json",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T17:40:50.172489",
+        "context_type": "SYSTEM_CONTEXT",
+        "app": "Command Prompt",
+        "context": {
+            "tab": ""
+        }
+    },
+    {
+        "timestamp": "2026-06-08T17:40:55.070751",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "app_detector.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T18:04:35.662960",
+        "context_type": "SYSTEM_CONTEXT",
+        "app": "Command Prompt",
+        "context": {
+            "tab": ""
+        }
+    },
+    {
+        "timestamp": "2026-06-08T18:04:40.275952",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "app_detector.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T18:05:52.184927",
+        "context_type": "SYSTEM_CONTEXT",
+        "app": "Windows Terminal",
+        "category": "TERMINAL",
+        "context": {
+            "directory": "C:\\Users\\Joel\\Joshua\\AI Companion\\ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T18:05:55.923767",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "app_detector.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T18:15:41.309726",
+        "context_type": "SYSTEM_CONTEXT",
+        "app": "Windows Terminal",
+        "category": "TERMINAL",
+        "context": {
+            "directory": "C:\\Users\\Joel\\Joshua\\AI Companion\\ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T18:15:45.120349",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "history.json",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T18:27:32.467244",
+        "context_type": "USER_CONTEXT",
+        "app": "File Explorer",
+        "category": "FILE EXPLORER",
+        "context": {
+            "tab_title": "agent",
+            "directory": "Joel\\Joshua\\AI Companion\\ai-companion\\agent"
+        }
+    },
+    {
+        "timestamp": "2026-06-08T18:27:37.547211",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "app_detector.py",
             "project": "ai-companion"
         }
     }

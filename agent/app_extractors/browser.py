@@ -16,9 +16,9 @@ def browser_extractor(context, parts):
 
     record  = {
         "timestamp": datetime.now().isoformat(),
-        "category": context["title_category"],
+        "context_type": context["context_category"],
         "app": context["current_app"], # Get the last part as app name
-        "context_type": context["app_category"],
+        "category": context["app_category"],
         "context": {
             "Web App": context["current_project"], # Get the first part as tab name
             "Tab Title": context["current_file"]

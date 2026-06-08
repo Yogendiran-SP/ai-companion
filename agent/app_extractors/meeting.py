@@ -7,9 +7,9 @@ def meeting_extractor(context, parts):
 
     record  = {
         "timestamp": datetime.now().isoformat(),
-        "category": context["title_category"],
+        "context_type": context["context_category"],
         "app": context["current_app"], # Get the last part as app name
-        "context_type": context["app_category"],
+        "category": context["app_category"],
         "context": {
             "meeting": context["current_file"] # Get the first part as tab name
         }

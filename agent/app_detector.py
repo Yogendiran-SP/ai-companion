@@ -3,6 +3,8 @@ from app_extractors.ide import ide_extractor
 from app_extractors.browser import browser_extractor
 from app_extractors.terminal import terminal_extractor
 from app_extractors.meeting import meeting_extractor
+from app_extractors.settings import settings_extractor
+from app_extractors.file_explorer import explorer_extractor
 from datetime import datetime
 
 context = {
@@ -14,7 +16,7 @@ context = {
     "previous_file": "",
     "previous_project": "",
     # Title category is not sent to LLM
-    "title_category": "" # This is for categorizing the title into SYSTEM_CONTEXT, SYSTEM_NOISE, or USER_CONTEXT
+    "context_category": "" # This is for categorizing the title into SYSTEM_CONTEXT, SYSTEM_NOISE, or USER_CONTEXT
 }
 
 def get_active_window_title():
@@ -34,9 +36,10 @@ def get_active_window_title():
         "Search",
         "Settings",
         "Control Panel",
-        "File Explorer",
         "Run",
-        "Task Manager"
+        "Task Manager",
+        "Device Manager",
+        "Windows Security"
     ]
 
     # Swapping current and previous app/file before updating current app/file
@@ -52,7 +55,7 @@ def get_active_window_title():
     ide = ["Visual Studio Code", "PyCharm", "IntelliJ IDEA", "Eclipse", "NetBeans", "Sublime Text", "Atom", "Vim", "Emacs"]
     browsers = ["Google Chrome", "Mozilla Firefox", "Microsoft Edge", "Safari", "Opera", "Brave"]
     meetings = ["Zoom Meeting", "Microsoft Teams", "Google Meet", "Webex Meeting", "Skype Meeting"]
-    terminals = ["Command Prompt", "PowerShell", "Terminal"]
+    terminals = ["Command Prompt", "Windows PowerShell", "Terminal"]
 
     # Basic parsing logic to extract app name and file name based on common patterns
     if not title:
@@ -62,18 +65,18 @@ def get_active_window_title():
     # Categorize the title
     if " - " in title:
         if title.split(" - ")[-1].strip() in SYSTEM_CONTEXT:
-            context["title_category"] = "SYSTEM_CONTEXT"
+            context["context_category"] = "SYSTEM_CONTEXT"
         elif title.split(" - ")[-1].strip() in SYSTEM_NOISE:
-            context["title_category"] = "SYSTEM_NOISE"
+            context["context_category"] = "SYSTEM_NOISE"
         else:
-            context["title_category"] = "USER_CONTEXT"
+            context["context_category"] = "USER_CONTEXT"
     else:
         if title in SYSTEM_CONTEXT:
-            context["title_category"] = "SYSTEM_CONTEXT"
+            context["context_category"] = "SYSTEM_CONTEXT"
         elif title in SYSTEM_NOISE:
-            context["title_category"] = "SYSTEM_NOISE"
+            context["context_category"] = "SYSTEM_NOISE"
         else:
-            context["title_category"] = "USER CONTEXT"
+            context["context_category"] = "USER_CONTEXT"
 
 
     if " - " in title:
@@ -81,6 +84,7 @@ def get_active_window_title():
         print(f"Parts:\n{parts}")
         app_name = parts[-1].strip()  # Get the last part as app name
 
+        # IDE
         if app_name in ide:
             context["app_category"] = "IDE"
             record = ide_extractor(context, parts)
@@ -88,6 +92,7 @@ def get_active_window_title():
             context["current_file"] = record["context"]["file"]
             context["current_project"] = record["context"]["project"]
 
+        # BROWSER
         elif app_name in browsers:
             context["app_category"] = "BROWSER"
             record = browser_extractor(context, parts)
@@ -95,6 +100,7 @@ def get_active_window_title():
             context["current_file"] = record["context"]["Tab Title"]
             context["current_project"] = record["context"]["Web App"]
 
+        # MEETING
         elif app_name in meetings:
             context["app_category"] = "MEETING"
             record = meeting_extractor(context, parts)
@@ -102,24 +108,60 @@ def get_active_window_title():
             context["current_file"] = record["context"]["meeting"]
             context["current_project"] = ""
 
-        elif app_name in terminals:
+        # FILE EXPLORER
+        elif app_name == "File Explorer":
+            context["app_category"] = "FILE EXPLORER"
+            record = explorer_extractor(context, parts)
+            context["current_app"] = record["app"]
+            context["current_file"] = record["context"]["directory"]
+            context["current_project"] = record["context"]["tab_title"]
+        
+        else:
+            context["app_category"] = "UNKNOWN"
+            context["current_app"] = app_name
+            context["current_file"] = title
+            context["current_project"] = ""
+            record = {
+                "timestamp": datetime.now().isoformat(),
+                "context_type": context["context_category"],
+                "app": context["current_app"],
+                "category": context["app_category"],
+                "context": {
+                    "title": title
+                }
+            }
+
+    else:
+
+        # SETTING
+        if title == "Settings":
+            context["context_category"] = "SETTINGS"
+            context["app_category"] = "SYSTEM_SETTINGS"
+            record = settings_extractor(context)
+            context ["current_app"] = record["app"]
+            context["current_file"] = record["context"]["section_path"]
+            context["current_project"] = ""
+
+        # TERMINAL
+        elif title in terminals:
             context["app_category"] = "TERMINAL"
-            record = terminal_extractor(context, parts)
+            record = terminal_extractor(context)
             context["current_app"] = record["app"]
             context["current_file"] = record["context"]["directory"]
             context["current_project"] = ""
+        
+        else:
+            context["current_app"] = title.strip()  # Use the entire title as app name
+            context["current_file"] = ""
 
-    else:
-        context["current_app"] = title.strip()  # Use the entire title as app name
-        context["current_file"] = ""
-
-        record  = {
-            "timestamp": datetime.now().isoformat(),
-            "category": context["title_category"],
-            "app": context["current_app"], # Get the last part as app name
-            "context": {
-                "tab": context["current_file"] # Get the first part as tab name
+            record  = {
+                "timestamp": datetime.now().isoformat(),
+                "context_type": context["context_category"],
+                "app": context["current_app"], # Get the last part as app name
+                "category": "Unknown",
+                "context": {
+                    "tab": context["current_file"] # Get the first part as tab name
+                }
             }
-        }
 
     return (context, record)

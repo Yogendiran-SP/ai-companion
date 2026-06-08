@@ -20,7 +20,7 @@ def get_suggestion(record:dict):
 
     response = client.models.generate_content(
         model="gemini-3.1-flash-lite",
-        contents=f"Here is the current context of the user's activity: {content}. Based on this context, provide useful suggestions to enhance the user's productivity or experience in just 3 lines."
+        contents=f"Here is the current context of the user's activity: {content}. Based on this context, provide useful suggestions to enhance the user's productivity or experience in ONLY 3 lines."
     )
 
     return response.text.strip()
