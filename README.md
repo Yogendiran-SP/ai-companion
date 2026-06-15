@@ -40,3 +40,20 @@ Limitations:
 * No command history understanding
 * No audio understanding
 * No agentic actions
+
+
+## Prototype v0.3
+
+Features:
+- Session intelligence
+- Automatic session classification
+- Session persistence
+- 30-minute session boundary detection
+- Workflow session tracking
+- Reorganized src architecture
+
+Limitations:
+- No browser URL extraction
+- No web-app identification
+- No audio understanding
+- No delegation engine

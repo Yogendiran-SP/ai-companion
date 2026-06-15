@@ -1,10 +1,14 @@
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
 from win32gui import GetWindowText, GetForegroundWindow
-from app_extractors.ide import ide_extractor
-from app_extractors.browser import browser_extractor
-from app_extractors.terminal import terminal_extractor
-from app_extractors.meeting import meeting_extractor
-from app_extractors.settings import settings_extractor
-from app_extractors.file_explorer import explorer_extractor
+from src.app_extractors.ide import ide_extractor
+from src.app_extractors.browser import browser_extractor
+from src.app_extractors.terminal import terminal_extractor
+from src.app_extractors.meeting import meeting_extractor
+from src.app_extractors.settings import settings_extractor
+from src.app_extractors.file_explorer import explorer_extractor
 from datetime import datetime
 
 context = {

@@ -1,0 +1,68 @@
+[
+    {
+        "session_id": 1,
+        "session_type": "CODING",
+        "session_start": "2026-06-15 13:40:55",
+        "session_end": "2026-06-15 13:44:21",
+        "session_activities": [
+            {
+                "timestamp": "2026-06-15T13:40:55.927831",
+                "context_type": "USER_CONTEXT",
+                "app": "Visual Studio Code",
+                "category": "IDE",
+                "context": {
+                    "file": "session_classifier.py",
+                    "project": "ai-companion"
+                }
+            },
+            {
+                "timestamp": "2026-06-15T13:41:00.078147",
+                "context_type": "USER_CONTEXT",
+                "app": "Visual Studio Code",
+                "category": "IDE",
+                "context": {
+                    "file": "session_creater.py",
+                    "project": "ai-companion"
+                }
+            },
+            {
+                "timestamp": "2026-06-15T13:41:05.823324",
+                "context_type": "USER_CONTEXT",
+                "app": "Visual Studio Code",
+                "category": "IDE",
+                "context": {
+                    "file": "session_manager.py",
+                    "project": "ai-companion"
+                }
+            }
+        ]
+    },
+    {
+        "session_id": 2,
+        "session_type": "CODING",
+        "session_start": "2026-06-15 13:44:21",
+        "session_end": "Current Session",
+        "session_activities": [
+            {
+                "timestamp": "2026-06-15T13:44:21.487843",
+                "context_type": "USER_CONTEXT",
+                "app": "Visual Studio Code",
+                "category": "IDE",
+                "context": {
+                    "file": "sessions.json",
+                    "project": "ai-companion"
+                }
+            },
+            {
+                "timestamp": "2026-06-15T13:44:28.585320",
+                "context_type": "USER_CONTEXT",
+                "app": "Visual Studio Code",
+                "category": "IDE",
+                "context": {
+                    "file": "session_save.py",
+                    "project": "ai-companion"
+                }
+            }
+        ]
+    }
+]

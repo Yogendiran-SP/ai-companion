@@ -764,5 +764,562 @@
             "file": "app_detector.py",
             "project": "ai-companion"
         }
+    },
+    {
+        "timestamp": "2026-06-10T21:07:36.197406",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "llm_client.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:10:20.371223",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_creater.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:12:53.012752",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_creater.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:13:01.250910",
+        "context_type": "USER_CONTEXT",
+        "app": "Brave",
+        "category": "BROWSER",
+        "context": {
+            "Web App": "",
+            "Tab Title": "GitHub Branch Terminology"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:13:15.459933",
+        "context_type": "USER_CONTEXT",
+        "app": "Brave",
+        "category": "BROWSER",
+        "context": {
+            "Web App": "",
+            "Tab Title": "Yogendiran-SP/ai-companion at feature/session-intelligence"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:13:29.551054",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_creater.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:29:07.905523",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_save.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:29:13.313747",
+        "context_type": "USER_CONTEXT",
+        "app": "Brave",
+        "category": "BROWSER",
+        "context": {
+            "Web App": "",
+            "Tab Title": "AI Companion Idea"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:29:23.313024",
+        "context_type": "USER_CONTEXT",
+        "app": "Brave",
+        "category": "BROWSER",
+        "context": {
+            "Web App": "",
+            "Tab Title": "Yogendiran-SP/ai-companion at feature/session-intelligence"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:29:35.519006",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_save.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:37:55.165669",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_manager.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:38:17.566793",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_creater.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:38:34.003454",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_manager.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:40:33.896216",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_manager.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:40:37.812075",
+        "context_type": "SYSTEM_NOISE",
+        "app": "Task Switching",
+        "category": "Unknown",
+        "context": {
+            "tab": ""
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:40:40.675018",
+        "context_type": "USER_CONTEXT",
+        "app": "Brave",
+        "category": "BROWSER",
+        "context": {
+            "Web App": "",
+            "Tab Title": "WhatsApp"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:40:45.856853",
+        "context_type": "USER_CONTEXT",
+        "app": "Brave",
+        "category": "BROWSER",
+        "context": {
+            "Web App": "",
+            "Tab Title": "Yogendiran-SP/ai-companion at feature/session-intelligence"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:40:51.871628",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_manager.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:43:37.843869",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_manager.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:47:47.201359",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_creater.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:50:33.740138",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_save.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:50:38.219453",
+        "context_type": "USER_CONTEXT",
+        "app": "Brave",
+        "category": "BROWSER",
+        "context": {
+            "Web App": "",
+            "Tab Title": "Yogendiran-SP/ai-companion at feature/session-intelligence"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T21:58:51.268227",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_creater.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T22:01:44.485337",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_classifier.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T22:01:47.871711",
+        "context_type": "USER_CONTEXT",
+        "app": "Brave",
+        "category": "BROWSER",
+        "context": {
+            "Web App": "",
+            "Tab Title": "WhatsApp"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T22:54:14.657964",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_save.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T22:55:27.314379",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_save.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T22:55:32.311712",
+        "context_type": "SYSTEM_NOISE",
+        "app": "",
+        "category": "Unknown",
+        "context": {
+            "tab": ""
+        }
+    },
+    {
+        "timestamp": "2026-06-10T22:55:35.239294",
+        "context_type": "USER_CONTEXT",
+        "app": "Brave",
+        "category": "BROWSER",
+        "context": {
+            "Web App": "",
+            "Tab Title": "AI Companion Idea"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T22:55:39.258464",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_save.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T22:55:41.743191",
+        "context_type": "USER_CONTEXT",
+        "app": "Brave",
+        "category": "BROWSER",
+        "context": {
+            "Web App": "",
+            "Tab Title": "WhatsApp"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T22:55:47.813621",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_save.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T23:08:13.997931",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "sessions.json",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T23:08:19.500932",
+        "context_type": "USER_CONTEXT",
+        "app": "Brave",
+        "category": "BROWSER",
+        "context": {
+            "Web App": "",
+            "Tab Title": "WhatsApp"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T23:08:24.731916",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "sessions.json",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-10T23:10:55.033561",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "sessions.json",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-13T23:22:56.544821",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "main.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-13T23:29:05.635577",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_classifier.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-13T23:31:06.529795",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_save.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-13T23:31:11.867036",
+        "context_type": "SYSTEM_NOISE",
+        "app": "Task Switching",
+        "category": "Unknown",
+        "context": {
+            "tab": ""
+        }
+    },
+    {
+        "timestamp": "2026-06-13T23:31:20.772214",
+        "context_type": "USER_CONTEXT",
+        "app": "Brave",
+        "category": "BROWSER",
+        "context": {
+            "Web App": "Chroma Worship | Ft. Joel Barber, Aearon Whyte and Daniel Eromosele",
+            "Tab Title": "(585) Altar (Live)"
+        }
+    },
+    {
+        "timestamp": "2026-06-13T23:31:25.696854",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_save.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-15T13:03:58.498051",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_creater.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-15T13:04:36.792237",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "sessions.json",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-15T13:04:43.179077",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_save.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-15T13:07:53.243378",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_creater.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-15T13:38:56.546314",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_manager.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-15T13:39:01.231065",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_creater.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-15T13:39:50.676477",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_manager.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-15T13:39:57.438765",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_save.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-15T13:40:07.986253",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "sessions.json",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-15T13:40:55.927831",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_classifier.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-15T13:41:00.078147",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_creater.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-15T13:41:05.823324",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_manager.py",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-15T13:44:21.487843",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "sessions.json",
+            "project": "ai-companion"
+        }
+    },
+    {
+        "timestamp": "2026-06-15T13:44:28.585320",
+        "context_type": "USER_CONTEXT",
+        "app": "Visual Studio Code",
+        "category": "IDE",
+        "context": {
+            "file": "session_save.py",
+            "project": "ai-companion"
+        }
     }
 ]
