@@ -57,3 +57,29 @@ Limitations:
 - No web-app identification
 - No audio understanding
 - No delegation engine
+
+## Prototype v0.4
+
+Features:
+
+* Browser URL extraction via UI Automation
+* Web application identification
+* Browser tab title extraction
+* Browser activity context tracking
+* Picture-in-Picture (PiP) browser detection
+* Structured browser activity records
+* Domain-based website classification
+* Enhanced workflow-aware context generation
+
+Limitations:
+
+* No browser module detection (Inbox, Commits, Conversation, etc.)
+* No browser activity classification
+* No webpage content understanding
+* No audio understanding
+* No vision-based context analysis
+* No delegation engine
+* No workflow learning
+* No agentic actions
+
+---
