@@ -102,8 +102,8 @@ def get_active_window_title():
             context["app_category"] = "BROWSER"
             record = browser_extractor(context, parts, handle)
             context["current_app"] = record["app"]
-            context["current_file"] = record["context"]["Tab Title"]
-            context["current_project"] = record["context"]["Web App"]
+            context["current_file"] = record["context"]["tab_title"]
+            context["current_project"] = record["context"]["web_app"]
 
         # MEETING
         elif app_name in meetings:
@@ -146,8 +146,8 @@ def get_active_window_title():
                             "category": context["app_category"],
                             "context": {
                                 "url": url,
-                                "web app": app,
-                                "tab title": context["current_file"] # Get the first part as tab name
+                                "web_app": app,
+                                "tab_title": context["current_file"] # Get the first part as tab name
                             }
                         }
                         break
@@ -204,8 +204,8 @@ def get_active_window_title():
                             "category": context["app_category"],
                             "context": {
                                 "url": url,
-                                "web app": app,
-                                "tab title": context["current_file"] # Get the first part as tab name
+                                "web_app": app,
+                                "tab_title": context["current_file"] # Get the first part as tab name
                             }
                         }
             

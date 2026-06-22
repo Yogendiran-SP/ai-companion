@@ -41,45 +41,49 @@ Limitations:
 * No audio understanding
 * No agentic actions
 
+---
 
 ## Prototype v0.3
 
 Features:
-- Session intelligence
-- Automatic session classification
-- Session persistence
-- 30-minute session boundary detection
-- Workflow session tracking
-- Reorganized src architecture
+
+* Session intelligence
+* Automatic session classification
+* Session persistence
+* 30-minute session boundary detection
+* Workflow session tracking
+* Reorganized src architecture
 
 Limitations:
-- No browser URL extraction
-- No web-app identification
-- No audio understanding
-- No delegation engine
+
+* No browser URL extraction
+* No web-app identification
+* No audio understanding
+* No delegation engine
+
+---
 
 ## Prototype v0.4
 
 Features:
 
-* Browser URL extraction via UI Automation
-* Web application identification
-* Browser tab title extraction
-* Browser activity context tracking
-* Picture-in-Picture (PiP) browser detection
+* Browser Context Intelligence
+* Browser URL extraction
+* Web-app identification
+* Domain-based website detection
+* URL segmentation
+* Query parameter extraction
+* Fragment extraction
 * Structured browser activity records
-* Domain-based website classification
-* Enhanced workflow-aware context generation
+* Browser context persistence
+* Picture-in-Picture browser detection
 
 Limitations:
 
-* No browser module detection (Inbox, Commits, Conversation, etc.)
-* No browser activity classification
-* No webpage content understanding
-* No audio understanding
-* No vision-based context analysis
+* No workflow intelligence
+* No browser activity inference
+* No semantic page understanding
+* No memory engine
 * No delegation engine
-* No workflow learning
-* No agentic actions
-
----
+* No audio understanding
+* No agentic execution

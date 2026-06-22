@@ -503,7 +503,7 @@
         "session_id": 10,
         "session_type": "CODING",
         "session_start": "2026-06-17 16:22:31",
-        "session_end": "Current Session",
+        "session_end": "2026-06-17 18:13:48",
         "session_activities": [
             {
                 "timestamp": "2026-06-17T16:22:31.373599",
@@ -535,6 +535,395 @@
                 "context": {
                     "file": "app_detector.py",
                     "project": "ai-companion"
+                }
+            }
+        ]
+    },
+    {
+        "session_id": 11,
+        "session_type": "CODING",
+        "session_start": "2026-06-17 18:13:48",
+        "session_end": "2026-06-17 18:19:22",
+        "session_activities": [
+            {
+                "timestamp": "2026-06-17T18:13:48.049059",
+                "context_type": "USER_CONTEXT",
+                "app": "Visual Studio Code",
+                "category": "IDE",
+                "context": {
+                    "file": "app_detector.py",
+                    "project": "ai-companion"
+                }
+            },
+            {
+                "timestamp": "2026-06-17T18:15:48.402449",
+                "context_type": "USER_CONTEXT",
+                "app": "Brave",
+                "category": "BROWSER",
+                "context": {
+                    "url": "chatgpt.com/c/6a0c816e-1954-8321-af23-9b2735c3f358",
+                    "web_app": "Chatgpt",
+                    "tab_title": "AI Companion Idea",
+                    "url_segments": [
+                        "c",
+                        "6a0c816e-1954-8321-af23-9b2735c3f358"
+                    ]
+                }
+            },
+            {
+                "timestamp": "2026-06-17T18:15:56.190282",
+                "context_type": "USER_CONTEXT",
+                "app": "Visual Studio Code",
+                "category": "IDE",
+                "context": {
+                    "file": "app_detector.py",
+                    "project": "ai-companion"
+                }
+            }
+        ]
+    },
+    {
+        "session_id": 12,
+        "session_type": "CODING",
+        "session_start": "2026-06-17 18:19:22",
+        "session_end": "2026-06-17 18:38:06",
+        "session_activities": [
+            {
+                "timestamp": "2026-06-17T18:19:22.163182",
+                "context_type": "USER_CONTEXT",
+                "app": "Brave",
+                "category": "BROWSER",
+                "context": {
+                    "url": "chatgpt.com/c/6a0c816e-1954-8321-af23-9b2735c3f358",
+                    "web_app": "Chatgpt",
+                    "tab_title": "AI Companion Idea",
+                    "url_segments": [
+                        "c",
+                        "6a0c816e-1954-8321-af23-9b2735c3f358"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "session_id": 13,
+        "session_type": "CODING",
+        "session_start": "2026-06-17 18:38:06",
+        "session_end": "2026-06-17 18:45:03",
+        "session_activities": [
+            {
+                "timestamp": "2026-06-17T18:38:06.840668",
+                "context_type": "USER_CONTEXT",
+                "app": "Brave",
+                "category": "BROWSER",
+                "context": {
+                    "url": "",
+                    "web_app": "",
+                    "tab_title": "New Tab",
+                    "url_segments": []
+                }
+            },
+            {
+                "timestamp": "2026-06-17T18:38:10.852625",
+                "context_type": "USER_CONTEXT",
+                "app": "Visual Studio Code",
+                "category": "IDE",
+                "context": {
+                    "file": "browser.py",
+                    "project": "ai-companion"
+                }
+            },
+            {
+                "timestamp": "2026-06-17T18:40:27.354986",
+                "context_type": "USER_CONTEXT",
+                "app": "Brave",
+                "category": "BROWSER",
+                "context": {
+                    "url": "",
+                    "web_app": "",
+                    "tab_title": "AI Companion Idea",
+                    "url_segments": []
+                }
+            },
+            {
+                "timestamp": "2026-06-17T18:40:30.622476",
+                "context_type": "USER_CONTEXT",
+                "app": "Brave",
+                "category": "BROWSER",
+                "context": {
+                    "url": "",
+                    "web_app": "",
+                    "tab_title": "New Tab",
+                    "url_segments": []
+                }
+            },
+            {
+                "timestamp": "2026-06-17T18:40:41.673414",
+                "context_type": "USER_CONTEXT",
+                "app": "Brave",
+                "category": "BROWSER",
+                "context": {
+                    "url": "",
+                    "web_app": "Brave Search",
+                    "tab_title": "Hello Bro",
+                    "url_segments": []
+                }
+            },
+            {
+                "timestamp": "2026-06-17T18:40:47.608319",
+                "context_type": "USER_CONTEXT",
+                "app": "Visual Studio Code",
+                "category": "IDE",
+                "context": {
+                    "file": "history.json",
+                    "project": "ai-companion"
+                }
+            }
+        ]
+    },
+    {
+        "session_id": 14,
+        "session_type": "CODING",
+        "session_start": "2026-06-17 18:45:03",
+        "session_end": "2026-06-17 18:59:40",
+        "session_activities": [
+            {
+                "timestamp": "2026-06-17T18:45:03.123223",
+                "context_type": "USER_CONTEXT",
+                "app": "Brave",
+                "category": "BROWSER",
+                "context": {
+                    "url": "chatgpt.com/c/6a0c816e-1954-8321-af23-9b2735c3f358",
+                    "web_app": "Chatgpt",
+                    "tab_title": "AI Companion Idea",
+                    "url_segments": [
+                        "c",
+                        "6a0c816e-1954-8321-af23-9b2735c3f358"
+                    ]
+                }
+            },
+            {
+                "timestamp": "2026-06-17T18:45:08.708794",
+                "context_type": "USER_CONTEXT",
+                "app": "Brave",
+                "category": "BROWSER",
+                "context": {
+                    "url": "search.brave.com/search?q=Hello+Bro&source=desktop",
+                    "web_app": "Brave Search",
+                    "tab_title": "Hello Bro",
+                    "url_segments": [
+                        "search?q=Hello+Bro&source=desktop"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "session_id": 15,
+        "session_type": "CODING",
+        "session_start": "2026-06-17 18:59:40",
+        "session_end": "2026-06-17 19:39:32",
+        "session_activities": [
+            {
+                "timestamp": "2026-06-17T18:59:40.181860",
+                "context_type": "USER_CONTEXT",
+                "app": "Brave",
+                "category": "BROWSER",
+                "context": {
+                    "url": "",
+                    "web_app": "",
+                    "tab_title": "New Tab",
+                    "url_segments": []
+                }
+            },
+            {
+                "timestamp": "2026-06-17T18:59:44.660449",
+                "context_type": "USER_CONTEXT",
+                "app": "Visual Studio Code",
+                "category": "IDE",
+                "context": {
+                    "file": "browser.py",
+                    "project": "ai-companion"
+                }
+            }
+        ]
+    },
+    {
+        "session_id": 16,
+        "session_type": "CODING",
+        "session_start": "2026-06-17 19:39:32",
+        "session_end": "2026-06-19 17:37:10",
+        "session_activities": [
+            {
+                "timestamp": "2026-06-17T19:39:32.958977",
+                "context_type": "USER_CONTEXT",
+                "app": "Brave",
+                "category": "BROWSER",
+                "context": {
+                    "url": "learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/1-introduction?pivots=text",
+                    "web_app": "Training | Microsoft Learn",
+                    "tab_title": "Introduction",
+                    "url_segments": [
+                        "en-us",
+                        "training",
+                        "modules",
+                        "analyze-text-ai-language",
+                        "1-introduction"
+                    ],
+                    "query_params": {
+                        "pivots": "text"
+                    }
+                }
+            },
+            {
+                "timestamp": "2026-06-17T19:39:38.273026",
+                "context_type": "USER_CONTEXT",
+                "app": "Visual Studio Code",
+                "category": "IDE",
+                "context": {
+                    "file": "browser.py",
+                    "project": "ai-companion"
+                }
+            },
+            {
+                "timestamp": "2026-06-17T19:40:01.138803",
+                "context_type": "USER_CONTEXT",
+                "app": "Brave",
+                "category": "BROWSER",
+                "context": {
+                    "url": "https://www.youtube.com/watch?v=vAZ_9lbriOk&list=RDvAZ_9lbriOk&start_radio=1",
+                    "web_app": "YouTube",
+                    "tab_title": "(670) WORSHIP WITH SAM | 02/08/2024 | GIVE ME JESUS!",
+                    "url_segments": [
+                        "watch"
+                    ],
+                    "query_params": {
+                        "v": "vAZ_9lbriOk",
+                        "list": "RDvAZ_9lbriOk",
+                        "start_radio": "1"
+                    }
+                }
+            },
+            {
+                "timestamp": "2026-06-17T19:40:05.982447",
+                "context_type": "USER_CONTEXT",
+                "app": "Visual Studio Code",
+                "category": "IDE",
+                "context": {
+                    "file": "browser.py",
+                    "project": "ai-companion"
+                }
+            }
+        ]
+    },
+    {
+        "session_id": 17,
+        "session_type": "CODING",
+        "session_start": "2026-06-19 17:37:10",
+        "session_end": "2026-06-22 22:22:13",
+        "session_activities": [
+            {
+                "timestamp": "2026-06-19T17:37:10.820009",
+                "context_type": "USER_CONTEXT",
+                "app": "Brave",
+                "category": "BROWSER",
+                "context": {
+                    "url": "mail.google.com/mail/u/0/?ogbl#inbox",
+                    "web_app": "Gmail",
+                    "tab_title": "Inbox (5,022) - jyogendiran@gmail.com",
+                    "url_segments": [
+                        "mail",
+                        "u",
+                        "0"
+                    ],
+                    "query_params": {
+                        "ogbl": ""
+                    },
+                    "fragments": "inbox"
+                }
+            },
+            {
+                "timestamp": "2026-06-19T17:37:17.285618",
+                "context_type": "USER_CONTEXT",
+                "app": "Visual Studio Code",
+                "category": "IDE",
+                "context": {
+                    "file": "browser.py",
+                    "project": "ai-companion"
+                }
+            },
+            {
+                "timestamp": "2026-06-19T17:39:12.647381",
+                "context_type": "USER_CONTEXT",
+                "app": "Brave",
+                "category": "BROWSER",
+                "context": {
+                    "url": "mail.google.com/mail/u/0/?ogbl#inbox",
+                    "web_app": "Gmail",
+                    "tab_title": "Inbox (5,022) - jyogendiran@gmail.com",
+                    "url_segments": [
+                        "mail",
+                        "u",
+                        "0"
+                    ],
+                    "query_params": {
+                        "ogbl": ""
+                    },
+                    "fragment": "inbox"
+                }
+            }
+        ]
+    },
+    {
+        "session_id": 18,
+        "session_type": "CODING",
+        "session_start": "2026-06-22 22:22:13",
+        "session_end": "Current Session",
+        "session_activities": [
+            {
+                "timestamp": "2026-06-22T22:22:13.313100",
+                "context_type": "USER_CONTEXT",
+                "app": "Brave",
+                "category": "BROWSER",
+                "context": {
+                    "url": "chatgpt.com/c/6a0c816e-1954-8321-af23-9b2735c3f358",
+                    "web_app": "chatgpt.com",
+                    "tab_title": "AI Companion Idea",
+                    "url_segments": [
+                        "c",
+                        "6a0c816e-1954-8321-af23-9b2735c3f358"
+                    ],
+                    "query_params": {},
+                    "fragment": ""
+                }
+            },
+            {
+                "timestamp": "2026-06-22T22:23:38.251726",
+                "context_type": "USER_CONTEXT",
+                "app": "Visual Studio Code",
+                "category": "IDE",
+                "context": {
+                    "file": "history.json",
+                    "project": "ai-companion"
+                }
+            },
+            {
+                "timestamp": "2026-06-22T22:23:43.078214",
+                "context_type": "USER_CONTEXT",
+                "app": "Brave",
+                "category": "BROWSER",
+                "context": {
+                    "url": "github.com/yogendiran-sp/ai-companion/commits/main/",
+                    "web_app": "github.com",
+                    "tab_title": "Commits \u00b7 Yogendiran-SP/ai-companion",
+                    "url_segments": [
+                        "Yogendiran-SP",
+                        "ai-companion",
+                        "commits",
+                        "main"
+                    ],
+                    "query_params": {},
+                    "fragment": ""
                 }
             }
         ]

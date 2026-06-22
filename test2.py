@@ -7,18 +7,24 @@ print("Active:", GetWindowText(handle))
 
 window = Desktop(backend="uia").window(handle=handle)
 
-for control in window.descendants():
-    text = control.window_text().strip()
-    if text:
-        print(f"{control.element_info.control_type} => {text}")
-
+# # Full UIA Output:
 # for control in window.descendants():
-#     if (control.element_info.control_type == "Text"):
-#         url = control.window_text().strip()
-#         print(f"URL: {url}")
-#         domain = url.split(".")[-2].capitalize()
-#         print(domain)
-#         break
+#     text = control.window_text().strip()
+#     if text:
+#         print(f"{control.element_info.control_type} => {text}")
+
+for control in window.descendants():
+    if (control.element_info.control_type == "Edit"):
+        url = control.window_text().strip()
+        if ("." in url) and (" " not in url):
+            print(f"URL: {url}")
+            domain = url.split(".")[-2].capitalize()
+            print(domain)
+            break
+else:
+    url = ""
+
+print(url)
 
 # KNOWN_DOMAINS = {
 #     "chatgpt.com": "ChatGPT",
