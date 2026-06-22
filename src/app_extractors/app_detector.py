@@ -3,6 +3,7 @@ import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
 from win32gui import GetWindowText, GetForegroundWindow
+from pywinauto import Desktop
 from src.app_extractors.ide import ide_extractor
 from src.app_extractors.browser import browser_extractor
 from src.app_extractors.terminal import terminal_extractor
@@ -57,7 +58,7 @@ def get_active_window_title():
 
     print(f"Raw window title: {title}") # For Debugging Title
     ide = ["Visual Studio Code", "PyCharm", "IntelliJ IDEA", "Eclipse", "NetBeans", "Sublime Text", "Atom", "Vim", "Emacs"]
-    browsers = ["Google Chrome", "Mozilla Firefox", "Microsoft Edge", "Safari", "Opera", "Brave"]
+    browsers = ["Google Chrome", "Mozilla Firefox", "Microsoft Edge", "Safari", "Opera", "Brave", "Picture in picture"]
     meetings = ["Zoom Meeting", "Microsoft Teams", "Google Meet", "Webex Meeting", "Skype Meeting"]
     terminals = ["Command Prompt", "Windows PowerShell", "Terminal"]
 
@@ -99,10 +100,10 @@ def get_active_window_title():
         # BROWSER
         elif app_name in browsers:
             context["app_category"] = "BROWSER"
-            record = browser_extractor(context, parts)
+            record = browser_extractor(context, parts, handle)
             context["current_app"] = record["app"]
-            context["current_file"] = record["context"]["Tab Title"]
-            context["current_project"] = record["context"]["Web App"]
+            context["current_file"] = record["context"]["tab_title"]
+            context["current_project"] = record["context"]["web_app"]
 
         # MEETING
         elif app_name in meetings:
@@ -125,6 +126,36 @@ def get_active_window_title():
             context["current_app"] = app_name
             context["current_file"] = title
             context["current_project"] = ""
+
+            try:
+                window = Desktop(backend="uia").window(handle=handle)
+                url=""
+                for control in window.descendants():
+                    if (control.element_info.control_type == "Text"):
+                        url = control.window_text().strip()
+                        print(f"URL:{url}")
+                        app = url.split(".")[-2].capitalize()
+                        context["app_category"] = "BROWSER"
+                        context["current_app"] = "Picture in Picture"
+                        context["current_file"] = handle
+
+                        record  = {
+                            "timestamp": datetime.now().isoformat(),
+                            "context_type": context["context_category"],
+                            "app": context["current_app"], # Get the last part as app name
+                            "category": context["app_category"],
+                            "context": {
+                                "url": url,
+                                "web_app": app,
+                                "tab_title": context["current_file"] # Get the first part as tab name
+                            }
+                        }
+                        break
+                return (context, record)
+            
+            except Exception:
+                pass
+
             record = {
                 "timestamp": datetime.now().isoformat(),
                 "context_type": context["context_category"],
@@ -139,8 +170,7 @@ def get_active_window_title():
 
         # SETTING
         if title == "Settings":
-            context["context_category"] = "SETTINGS"
-            context["app_category"] = "SYSTEM_SETTINGS"
+            context["app_category"] = "SETTINGS"
             record = settings_extractor(context)
             context ["current_app"] = record["app"]
             context["current_file"] = record["context"]["section_path"]
@@ -155,17 +185,42 @@ def get_active_window_title():
             context["current_project"] = ""
         
         else:
-            context["current_app"] = title.strip()  # Use the entire title as app name
-            context["current_file"] = ""
+            try:
+                window = Desktop(backend="uia").window(handle=handle)
+                url=""
+                for control in window.descendants():
+                    if (control.element_info.control_type == "Text"):
+                        url = control.window_text().strip()
+                        print(f"URL:{url}") # Debug printing
+                        app = url.split(".")[-2].capitalize()
+                        context["app_category"] = "BROWSER"
+                        context["current_app"] = "Picture in Picture"
+                        context["current_file"] = handle
 
-            record  = {
-                "timestamp": datetime.now().isoformat(),
-                "context_type": context["context_category"],
-                "app": context["current_app"], # Get the last part as app name
-                "category": "Unknown",
-                "context": {
-                    "tab": context["current_file"] # Get the first part as tab name
+                        record  = {
+                            "timestamp": datetime.now().isoformat(),
+                            "context_type": context["context_category"],
+                            "app": context["current_app"], # Get the last part as app name
+                            "category": context["app_category"],
+                            "context": {
+                                "url": url,
+                                "web_app": app,
+                                "tab_title": context["current_file"] # Get the first part as tab name
+                            }
+                        }
+            
+            except Exception:
+                context["current_app"] = title.strip()  # Use the entire title as app name
+                context["current_file"] = ""
+
+                record  = {
+                    "timestamp": datetime.now().isoformat(),
+                    "context_type": context["context_category"],
+                    "app": context["current_app"], # Get the last part as app name
+                    "category": "Unknown",
+                    "context": {
+                        "tab": context["current_file"] # Get the first part as tab name
+                    }
                 }
-            }
 
     return (context, record)
